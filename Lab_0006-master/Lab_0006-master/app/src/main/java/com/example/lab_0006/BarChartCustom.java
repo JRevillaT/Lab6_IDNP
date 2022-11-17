@@ -19,8 +19,6 @@ public class BarChartCustom extends View {
     private Paint textPaint;
     private Paint linesPaint;
 
-    //double [] datos = {5, 10, 2.5, 5, 8.2, 10, 6.1, 4.7, 6, 10,1.5,9,0.1};
-    //11 datos
     private ArrayList<String> countryList;
     private ArrayList<Double> dataList;
 
@@ -93,8 +91,6 @@ public class BarChartCustom extends View {
             mRectSquare.bottom = (int) (mRectSquare.top + barHeight);
             x += 2* barWidth;
             paddingBars = (float) (x-1.4* barWidth);
-            //paddingBars = (float) (x-(barWidth/2));
-            //canvas.drawText(paises.get(i), (float) (paddingBars), (float) (screenHeight), textPaint);
             canvas.drawRect(mRectSquare, mPaintSquare);
             canvas.rotate((float) -90, (float) (paddingBars), (float) (screenHeight));
             canvas.drawText(countryList.get(i), (float) (paddingBars), (float) (screenHeight), textPaint);

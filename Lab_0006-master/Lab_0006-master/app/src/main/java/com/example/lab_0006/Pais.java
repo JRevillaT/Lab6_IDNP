@@ -40,7 +40,7 @@ public class Pais {
         paises.add(new Pais("Colombia", 27.4f,"#377057"));
         paises.add(new Pais("Ecuador", 32.9f, "#749576"));
         paises.add(new Pais("Guyana", 28.3f, "#bec19e"));
-        paises.add(new Pais("Mexico", 29f, "##201b24"));
+        paises.add(new Pais("Mexico", 29f, "#201b24"));
         paises.add(new Pais("Paraguay", 34.8f, "#b9ce55"));
         paises.add(new Pais("Peru", 32.9f, "#799646"));
         paises.add(new Pais("U.S.A", 16.7f, "#456835"));
